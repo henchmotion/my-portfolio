@@ -1,10 +1,59 @@
-ul{
+nav{
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     list-style: none;
+    align-items: center; 
+}
+
+.nav-links {
+    padding: auto;
+    margin: 20px;
     
 }
 
-li {
-    margin: 20px;
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
 }
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width:40px;
+    margin-left: 50px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    
+}
+
+button {
+    background-color: #FF6464;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+#profile-pic {
+    width: 243px;
+    height: 243px;
+    /* margin: 50px; */
+    border-radius: 50%;
+}
+
+.description {
+    width: 497px;
+    padding: 10px;
+    /* margin-left: 50px; */
+}
+
+
+
