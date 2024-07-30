@@ -25,34 +25,76 @@ nav{
 
 .logo {
     width:40px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
-.hero-container {
+.hero-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 100px;
     
 }
+.description {
+    width: 1152px;
+    font-weight: bold;
+    padding: 10px;
+    /* margin: 100px; */
+}
 
-button {
+.my-description {
+    margin-right: 100px;
+}
+
+
+h1 {
+    width: 506px;
+}
+
+#resume-btn {
     background-color: #FF6464;
     color: white;
     padding: 10px;
     border: none;
+    border-radius: 5%;
+    margin-top: 30px;
 }
 
 #profile-pic {
     width: 243px;
     height: 243px;
-    /* margin: 50px; */
+    border: 10px solid navy;
     border-radius: 50%;
 }
 
-.description {
-    width: 497px;
-    padding: 10px;
-    /* margin-left: 50px; */
+
+
+#parent-body{
+    margin: 100px;   
+}
+
+.main-content {
+    display: flex;
+}
+
+#main-1, #main-2 {
+    padding-left: 100px;
+    width: 1152px;
+    background-color: white;
+    m
+}
+
+
+#others {
+    background-color: rgb(230, 240, 245);
+    height: 855px;
+}
+
+.first-layer {
+    display: flex;
+    padding-left: 100px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
 }
 
 
