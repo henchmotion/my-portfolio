@@ -1,57 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Henry Erondu</title>
-    <link rel="stylesheet" href="css\styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/486f3807ba.js" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Henry Erondu</title>
+        <link rel="stylesheet" href="css\styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <!-- <script src="https://kit.fontawesome.com/486f3807ba.js" crossorigin="anonymous"></script> -->
+        <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    
+        
 
-</head>
-<body>
-    
-    <header>
-        <nav id="navbar">
-            <div class="container">
-                <div>
-                    <h1 class="logo"><a href="index.html">Henry Erondu</a></h1>
+    </head>
+    <body>
+        
+        <header>
+            <nav id="navbar">
+                <div class="container">
+                    <div>
+                        <h1 class="logo"><a href="index.html">Henry Erondu</a></h1>
+                    </div>
+                
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="">Projects </a></li>
+                        <li><a href="contact.html">Contact Me </a></li>
+                    </ul>
+        
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
                 </div>
+            </nav>
+        </header>
+
+        <section>
+            <div class="about-me">
+                <div class="container-card">
+                    <!-- <h1 class="meet">Meet Henry Erondu </h1> -->
+                    <div class="background">
+                        <div class="description">
+                            <!-- <h2> <i class="fa-solid fa-user-check"></i> Who am I?</h2> -->
+                            <p>
+                                Henry Erondu is a passionate Frontend developer who is dedicated to learning and applying new
+                                technologies in an enabling environment. Henry has experience and skill set in creating responsive web pages
+                                and scalable web applications with functional user interfaces.
+                                Leveraging on the expertise of his technology stack, He is eager to contribute to dynamic teams 
+                                and also write clean and efficient code that is both maintainable and scalable in solving both simple and complex problems. 
+                                Henry possesses exceptional leadership and organizational skills, thrive in fast-paced environments, and adapt quickly to new challenges.
             
-                <ul class="nav-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="">About Me</a></li>
-                    <li><a href="">Projects </a></li>
-                    <li><a href="">Contact Me </a></li>
-                </ul>
-    
-                <div class="toggle">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+                            </p>
+                            <p>I'm glad you're here. Feel free to <a href="contact.html">reach out to me</a> with
+                                project ideas you have or to just say hello!</p>
+            
+                                <button id="resume-btn"><a href="Assets\Henry Erondu Software developer.pdf">Download Resume </a></button>
+            
+                            <div class="my-stack">
+                                <p>My technology stack: </p>
+                                <ul class="stack-cover">
+                                    <li class="stack"> <i class="fa-brands fa-html5 fa-2x"></i> HTML</li>
+                                    <li class="stack"> <i class="fa-brands fa-css fa-2x"></i> CSS</li>
+                                    <li class="stack"><i class="fa-brands fa-js fa-2x"></i> JAVASCRIPT</li>
+                                    <li class="stack"> <i class="fa-brands fa-react fa-2x"></i> REACT</li>
+                                    <li class="stack"> <i class="fa-brands fa-c# fa-2x"></i>C#</li>
+                                </ul>
+                            </div>
+                        </div>
+            
+                        <div class="prof-pic">
+                            <img src="images/my-prof-pic.jpg" alt="profile-pic" id="profile-pic">
+                        </div>
+                    </div>
+            
                 </div>
             </div>
-        </nav>
-    </header>
+            
 
-    <section id="parent-body">
+        </section>
 
-       
-    
+        
 
-    
-        <div class="prof-pic">
-            <img src="images/my-prof-pic.jpg" alt="profile-pic" id="profile-pic">
-        </div>
+        <script src="js\jquery-anim.js"></script>
+        <script src="js\jquery-font.js"></script>
+        <script src="js\toggle.js"></script>
 
-     </section>
-
-    
-</body>
+        
+    </body>
 </html>
